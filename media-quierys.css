@@ -1,0 +1,92 @@
+@media screen and (max-width: 991px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    .nav-toogle {
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-bar .links {
+        /* display: block; */
+        position: absolute;
+        flex-direction: column;
+        top: 100%;
+        left: -100%;
+        background: white;
+        padding-right: 80%;
+        width: 100%;
+        padding-block:20px ;
+        /* text-align: center; */
+        justify-content: center;
+        transition: 0.2s ease-in;
+    }
+    .nav-bar .active {
+        left: 0px;
+    }
+    .container {
+        overflow: initial;
+    }
+    .option-card {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+    .option-card .op-card{
+        width: 45%;
+        height: 200px;
+        background-size: cover;
+    }
+    .company-img img{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
+        height: 904px;
+    }
+    .hero-text {
+        text-align: center;
+        height: 50%;
+        width: 100%;
+    }
+    .primary-btn {
+        display: block;
+        width: 100%;
+    }
+    .feature-card {
+        flex-wrap: wrap;
+    }
+    .feature-card .cards {
+        width: 45%;
+    }
+    .founder-section {
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+    /* .founder-card-info {
+        width: 70%;
+        text-align: center;
+    } */
+    .primary-footer {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .list-link {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .founder-card-info{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
